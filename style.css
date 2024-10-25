@@ -1,61 +1,113 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul, ol, li{
+
+ul, ol, li {
     list-style: none;
 }
 
-
-html, body{
+html, body {
     scroll-behavior: smooth;
 }
-header{
-    background-color: black;
+
+header {
     position: fixed;
     width: 100vw;
-    padding: 16px;
+    padding: 0; /* Removido padding para ajustar às listras */
+    z-index: 10; /* Certifique-se de que o header esteja acima de outros elementos */
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     justify-content: space-between;
 }
-header nav a{
+
+header nav a {
     color: white;
-    padding: 8px;
+    padding: 16px; /* Ajuste a área clicável */
 }
 
-header nav a:hover{
+header nav a:hover {
     background-color: tomato;
-  transition: 1s;
-
+    transition: 1s;
 }
 
+.stripe {
+    height: 50px; /* Ajuste a altura das listras */
+    width: 100%; /* Largura total */
+}
 
-.grupo{  /* AQUI SEMPRE VAI ESPALHAR A COR E DEIXAR CADA P;ARTE DA COR DESEJADA*/
+.light {
+    background-color: #f2a6b7; /* Rosa claro */
+}
+
+.dark {
+    background-color: #f17ea1; /* Rosa escuro */
+}
+
+/* Classe para centralizar o conteúdo das seções */
+.grupo {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinha a imagem e o vídeo com o texto ao centro */
+    padding-left: 20px; 
+    padding-right: 20px;
 }
 
-#vermelho{
-    background-color: tomato;
+/* Estilo para a imagem */
+.imagem-grupo {
+    width: 600px; 
+    height: auto;
+    border-radius: 15px; 
+    object-fit: cover;
+    margin-right: 20px;
 }
 
-#verde{
+/* Estilo para o vídeo */
+.video-grupo {
+    width: 600px; /* Mesmo tamanho da imagem */
+    height: 337.5px; /* Mantém a proporção 16:9 */
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no vídeo */
+}
+
+/* Estilo para o texto */
+.text-container {
+    margin-left: 20px;
+}
+
+.title {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px; 
+    font-weight: bold;
+    color: #c23374; 
+    -webkit-text-stroke: 2px black; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+#vermelho {
+    background-color: #db7093;
+}
+
+#verde {
     background-color: green;
 }
 
-#azul{
+#azul {
     background-color: blue;
 }
 
-#amarelo{
+#amarelo {
     background-color: yellow;
 }
 
-#roxo{
+#roxo {
     background-color: blueviolet;
 }
