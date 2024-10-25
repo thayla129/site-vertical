@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, ol, li{
+    list-style: none;
+}
+
+
+html, body{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    padding: 16px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    color: white;
+    padding: 8px;
+}
+
+header nav a:hover{
+    background-color: tomato;
+  transition: 1s;
+
+}
+
+
+.grupo{  /* AQUI SEMPRE VAI ESPALHAR A COR E DEIXAR CADA P;ARTE DA COR DESEJADA*/
+    height: 100vh;
+}
+
+#vermelho{
+    background-color: tomato;
+}
+
+#verde{
+    background-color: green;
+}
+
+#azul{
+    background-color: blue;
+}
+
+#amarelo{
+    background-color: yellow;
+}
+
+#roxo{
+    background-color: blueviolet;
+}
