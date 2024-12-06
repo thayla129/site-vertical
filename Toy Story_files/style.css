@@ -1,0 +1,237 @@
+/* Estilos globais */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: black;
+    padding: 16px;
+}
+
+header nav a:hover {
+    background-color: white;
+    transition: 1s;
+}
+
+.stripe {
+    height: 50px;
+    width: 100%;
+}
+.dark {
+    background-color: white;
+}
+
+/* Estilos para as seções com efeito de degradê e sombra */
+.grupo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Seção #vermelho com degradê e sombra */
+#toy {
+    background: linear-gradient(to bottom, white, lightblue);
+    box-shadow: 0px 4px 20px rgba(0, 0, 255, 0.5);
+}
+
+#verde{
+    background: linear-gradient(to bottom, grey, white);
+    box-shadow: 0px 4px 20px rgba(128, 128, 128, 0.5);
+}
+/* Seção #azul com degradê e sombra */
+#azul {
+    background: linear-gradient(to bottom, yellow, white);
+    box-shadow: 0px 4px 20px rgba(128, 128, 128, 0.5);
+}
+
+/* Seção #amarelo com degradê e sombra */
+#amarelo {
+    background: linear-gradient(to bottom, #b34db2, white);
+    box-shadow: 0px 4px 20px rgba(255, 255, 0, 0.5);
+}
+
+/* Seção #roxo com degradê e sombra */
+#roxo {
+    background: linear-gradient(to bottom, #e32636, white);
+    box-shadow: 0px 4px 20px rgba(128, 0, 128, 0.5);
+}
+
+/* Estilos para as imagens dentro das seções */
+.imagem-grupo {
+    width: 600px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 170%;
+    margin-bottom: 20px;
+}
+
+.text-container {
+    margin-left: 20px;
+}
+
+.title {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para os itens da seção #verde */
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.item {
+    position: absolute;
+    width: 150px;
+    height: 217px;
+    border: 6px solid white;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Posicionamento dos itens na seção #verde */
+#item1 {
+    top: 20%;
+    left: 10%;
+}
+
+#item2 {
+    top: 20%;
+    left: 60%;
+}
+
+#item3 {
+    top: 50%;
+    left: 30%;
+}
+
+#item4 {
+    top: 50%;
+    left: 80%;
+}
+
+#caixa-branca-toy{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-toy h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: rgb(21, 21, 115); 
+}
+
+
+
+
+
+#caixa-branca-woody{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-woody h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: rgb(217, 217, 34); 
+}
+
+
+#caixa-branca-buzz{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 5px;
+    margin-right: 50px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-buzz h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: purple; 
+}
+
+#caixa-branca-jessie{
+    box-shadow: 4px 4px 10px rgba(16, 16, 16, 0.1);
+    margin-top: 480px;
+    margin-left: 10px;
+    margin-right: 40px;
+    background-color: rgba(242, 245, 247, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+
+#caixa-branca-jessie h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: rgb(249, 89, 89); 
+}
