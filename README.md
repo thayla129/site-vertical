@@ -1,6 +1,6 @@
 # Landing Page - Toy Story
 
-![](./img/printToy%20Story.htm)
+![](./img/Captura%20de%20Tela%202024-12-06%20%C3%A0s%2012.21.27.png)
 
 ---
 ## Sobre
