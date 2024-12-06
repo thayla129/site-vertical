@@ -1,4 +1,4 @@
-# Landing Page - Let's Go, Pikachu
+# Landing Page - Toy Story
 
 ![](./img/printToy%20Story.htm)
 
